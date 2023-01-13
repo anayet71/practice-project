@@ -38,7 +38,8 @@ header{
      font-size: 45px;
      font-weight: 700;
      margin-bottom: 20px; 
-     margin-top: 130px;   
+     margin-top: 130px; 
+     text-align: center;  
 }
 .donate-description{
      color: #707070;
@@ -46,7 +47,87 @@ header{
 }
 .donate-amount{
      display: flex;
+     gap: 22px;
+     justify-content: center;
 }
-{
-     background-color:#FF5959;
+.tk-100{
+     font-size: 30px;
+     font-weight: 700;
+     color: #707070;
+     padding: 43.5px 25px;
+     background-color:#FAFAFA ;
+}
+.tk-200{
+     font-size: 30px;
+     font-weight: 700;
+     padding: 43.5px 25px;
+     color: #FF5959;
+     border: 3px solid #FF5959;
+     border-radius: 5px;
+     background-color: #FFEEEE;
+}
+.donate-other{
+     margin-top: 60px;
+     color: #B3B3B3;
+     font-size: 28px;
+     margin-bottom: 10px;
+}
+hr{
+     margin-bottom: 31px;
+     color: #DADADA;
+}
+.donate-plan-sectors{
+     display: flex;
+     gap: 24px;
+}
+.donate-plan-main-title{
+     font-size: 45px;
+     font-weight: 700;
+     margin-top: 130px;
+}
+.donate-plan-description{
+     color:#707070 ;
+     font-size: 18px;
+     margin-bottom: 50px;
+}
+.donate-plan-title{
+     font-size: 24px;
+     font-weight: 600;
+     text-align: left;
+     margin-left: 24px;
+}
+.donate-plan-details{
+     color:#707070 ;
+     margin-left: 24px;
+     margin-bottom: 54px;
+     margin-right: 22px;
+     text-align: left;
+}
+.food{
+     background-color: rgba(79, 157, 166, 0.1);
+}
+.food img{
+     display: block;
+     text-align: left;
+     margin-top: 64px;
+     margin-left: 24px;
+}
+
+.shelter{
+     background-color: rgba(255, 89, 89, 0.1);
+}
+.shelter img{
+     display: block;
+     text-align: left;
+     margin-top: 64px;
+     margin-left: 24px;
+}
+.education{
+     background-color: #FFF4D6;
+}
+.education img{
+     display: block;
+     text-align: left;
+     margin-top: 64px;
+     margin-left: 24px;
 }
