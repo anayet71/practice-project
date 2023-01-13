@@ -1,0 +1,52 @@
+*{
+     margin: opx;
+     font-family: 'Inter', sans-serif;
+     font-family: 'Open Sans', sans-serif;
+     text-align: center;
+}
+main{
+     width: 1106px;
+     margin: 0 auto;
+}
+header{
+     background-image: url(images/donation2.jpg);
+     background-repeat: no-repeat;
+     background-position: center;
+     height: 500px;
+     text-align: center;
+}
+.tag-line{
+     color: white;
+     padding-top: 50px;
+     font-weight: 700px;
+}
+
+.tag-line-description{
+     font-weight: 400;
+     font-size: 18px;
+}
+.btn-primary{
+     background-color:#FF5959;
+     border-radius: 5px;
+     padding: 16px 21px;
+     color: white;
+     border: none
+}
+
+/* Donate Today */
+.donate-title{
+     font-size: 45px;
+     font-weight: 700;
+     margin-bottom: 20px; 
+     margin-top: 130px;   
+}
+.donate-description{
+     color: #707070;
+     font-size: 18px;
+}
+.donate-amount{
+     display: flex;
+}
+{
+     background-color:#FF5959;
+}
